@@ -1,0 +1,82 @@
+﻿@model MVCPanel.Entities.Models.User
+@{
+
+    ViewBag.Title = "GetUserUpdate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Bottom navbar example for Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbar-bottom/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body style="background-color:#fbfbf2">
+    <div class="container">
+        <br /><br />
+        <div class="jumbotron mt-3">
+            <h1 style="color:#0094ff">Kullanıcı Bilgilerini Güncelleyin</h1> <br /><br />
+            <p class="lead">
+                @using (Html.BeginForm("UserUpdate", "Home", FormMethod.Post, new { @class = "login-form" }))
+                {
+                    <div style="display:none">
+                        @Html.TextBoxFor(x => x.ID, new { @class = "form-control rounded-left" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control rounded-left", @placeholder = "Kullanıcı Adı", @required = "@required" })
+                    </div>
+                    <div class="form-group">
+                        @Html.TextBoxFor(x => x.LastName, new { @class = "form-control rounded-left", @placeholder = "Kullanıcı Soyadı", @required = "@required" })
+                    </div>
+                     <div class="form-group">
+                                <select name="Role" class="form-control rounded-left">
+
+                                    <option>Yetki Seçiniz</option>
+                                    <option value="1">Admin</option>
+                                    <option value="2">Kullanıcı</option>
+
+                                </select>
+                            </div>
+                    <div class="form-group">
+                        @Html.PasswordFor(x => x.PasswordHash, new { @class = "form-control rounded-left", @placeholder = "Şifreniz", @required = "@required" })
+                    </div>    
+                    <div class="form-group">
+                        @Html.TextBoxFor(x => x.Email, new { @class = "form-control rounded-left", @placeholder = "E-Mail Adresi", @required = "@required" })
+                    </div>  
+                    <div class="form-group">
+                        @Html.TextBoxFor(x => x.Tel, new { @class = "form-control rounded-left", @placeholder = "Telefon", @required = "@required" })
+                    </div>  
+                  
+                    <div class="form-group">
+                        <button type="submit" class="form-control btn btn-primary rounded submit px-3">Güncelle</button>
+                    </div>
+
+                }
+            </p>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="~/bootstrap-4.0.0/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="~/Scripts/popper.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
+
+

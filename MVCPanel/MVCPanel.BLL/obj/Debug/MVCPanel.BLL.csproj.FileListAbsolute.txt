@@ -1,0 +1,17 @@
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.BLL\bin\Debug\MVCPanel.BLL.dll.config
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.BLL\bin\Debug\MVCPanel.BLL.dll
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.BLL\bin\Debug\MVCPanel.BLL.pdb
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.BLL\bin\Debug\EntityFramework.dll
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.BLL\bin\Debug\MVCPanel.DAL.dll
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.BLL\bin\Debug\MVCPanel.Entities.dll
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.BLL\bin\Debug\MVCPanel.DAL.pdb
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.BLL\bin\Debug\MVCPanel.DAL.dll.config
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.BLL\bin\Debug\MVCPanel.Entities.pdb
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.BLL\bin\Debug\EntityFramework.xml
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.BLL\obj\Debug\MVCPanel.BLL.csproj.AssemblyReference.cache
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.BLL\obj\Debug\MVCPanel.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.BLL\obj\Debug\MVCPanel.BLL.csproj.CopyComplete
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.BLL\obj\Debug\MVCPanel.BLL.dll
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.BLL\obj\Debug\MVCPanel.BLL.pdb

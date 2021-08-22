@@ -1,0 +1,60 @@
+﻿@using MVCPanel.Entities.Models
+@model List<MVCPanel.Entities.Models.User> 
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var yetki = Convert.ToInt32(Request.QueryString["Yetki"]);
+}
+
+<body style="background-color:#fbfbf2">
+
+    <div class="text-center">
+
+        <br />
+
+        <table class="table table-hover">
+
+            <tr class="table-primary">
+                <th style="text-align:center">ID</th>
+                <th style="text-align:center">Kullanıcı Adı</th>
+                <th style="text-align:center">Kullanıcı Soyadı</th>
+                <th style="text-align:center">Yetki</th>
+                <th style="text-align:center">Kayıt Tarih</th>
+                @if ( yetki == 1)
+                {
+                    <th style="text-align:center">Güncelle</th>
+                    <th style="text-align:center">Sil</th>
+                }
+
+            </tr>
+
+
+            @foreach (var x in Model)
+            {
+
+        <tr>
+
+            <td>@x.ID</td>
+            <td>@x.FirstName</td>
+            <td>@x.LastName</td>
+            <td>@x.Role</td>
+            <td>@x.CreatedDate.ToString().Split(' ').First()</td>
+            @if (yetki == 1)
+            {
+                <td><a href="/Home/GetUserUpdate/@x.ID" class="btn btn-success">Güncelle</a></td>
+                <td><a href="/Home/DeleteUser/@x.ID" class="btn btn-danger">Sil</a></td>
+            }
+
+
+        </tr>
+
+            }
+
+        </table>
+    </div>
+
+    <a href="~/Account/SignUp" class="btn btn-primary">Yeni Kullanıcı Ekle</a>
+    <br /><br />
+
+
+</body>

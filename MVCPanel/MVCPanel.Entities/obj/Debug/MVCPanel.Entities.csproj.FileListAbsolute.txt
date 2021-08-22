@@ -1,0 +1,6 @@
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.Entities\bin\Debug\MVCPanel.Entities.dll
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.Entities\bin\Debug\MVCPanel.Entities.pdb
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.Entities\obj\Debug\MVCPanel.Entities.csproj.AssemblyReference.cache
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.Entities\obj\Debug\MVCPanel.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.Entities\obj\Debug\MVCPanel.Entities.dll
+C:\Users\Toshiba\Source\Repos\MVCPanel\MVCPanel.Entities\obj\Debug\MVCPanel.Entities.pdb
